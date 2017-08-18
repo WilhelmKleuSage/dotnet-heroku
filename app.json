@@ -1,0 +1,10 @@
+{
+  "name": "dotnet-heroku",
+  "description": "Test dotnet app on heroku.",
+  "buildpacks": [
+    {
+      "url": "https://www.github.com/andrew-nixon/dotnet-buildpack"
+    }
+  ],
+  "stack": "cedar-14"
+}
