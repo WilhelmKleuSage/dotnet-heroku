@@ -11,11 +11,5 @@ namespace dotnet_heroku_tests
         {
             true.Should().BeTrue();
         }
-
-        [Fact]
-        public void ShoulFail()
-        {
-            true.Should().BeFalse();
-        }
     }
 }
