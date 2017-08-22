@@ -1,1 +1,0 @@
-web: cd $HOME/heroku_output/dotnet-heroku && ASPNETCORE_URLS='http://+:\$PORT' && dotnet ./dotnet-heroku.dll --server.urls http://+:$PORT ${CORE_ENVIRONMENT}
