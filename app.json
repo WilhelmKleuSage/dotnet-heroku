@@ -3,8 +3,8 @@
   "description": "Test dotnet app on heroku.",
   "buildpacks": [
     {
-      "url": "https://www.github.com/andrew-nixon/dotnet-buildpack"
+      "url": "https://github.com/jincod/dotnetcore-buildpack"
     }
   ],
-  "stack": "cedar-14"
+  "stack": "heroku-16"
 }
