@@ -8,7 +8,7 @@ namespace dotnet_heroku_tests
         [Fact]
         public void ShouldPass()
         {
-            true.Should().BeTrue();
+            false.Should().BeTrue();
         }
     }
 }
